@@ -14,13 +14,13 @@ const Sidebar = () => {
           />
           <h4>Kaushal</h4>
         </center>
-        <Link className="link" to="/pending">
+        <Link className="link" to="#">
           <i className="fas fa-user-circle"></i>
-          <span>Dashboard</span>
+          <span>Users</span>
         </Link>
-        <Link className="link" to="/learning">
+        <Link className="link" to="/pending">
           <i className="fas fa-desktop"></i>
-          <span>Learning Structure</span>
+          <span>Dashboard</span>
         </Link>
         <Link className="link" to="/program">
           <i className="fas fa-calendar-check"></i>
