@@ -4,21 +4,40 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <Fragment>
-      <header>
-        <label for="check">
+      <nav className="navbar bg-dark">
+        <Link to="/">
+          <img
+            className="logo"
+            src="https://i.ibb.co/VvHpdWk/download.png"
+            alt=""
+          />
+          <h2 className="text-span">
+            INTERNITY <span>FOUNDATION</span>
+          </h2>
+        </Link>
+        <label htmlFor="check">
           <i className="fas fa-bars" id="sidebar_btn"></i>
         </label>
-        <div className="left_area">
-          <h3>
-            internity <span>foundation</span>
-          </h3>
-        </div>
-        <div className="right_area">
-          <Link to="#" className="logout_btn">
-            Logout
-          </Link>
-        </div>
-      </header>
+        <ul>
+          <li>
+            <a href="profiles.html">Create</a>
+          </li>
+          <li>
+            <a href="posts.html">Blogs</a>
+          </li>
+          <li>
+            <a href="dashboard.html" title="Dashboard">
+              <span className="hide-sm">Users</span>
+            </a>
+          </li>
+          <li>
+            <a href="login.html" title="Logout">
+              <i className="fas fa-sign-out-alt"></i>
+              <span className="hide-sm">Logout</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </Fragment>
   );
 };

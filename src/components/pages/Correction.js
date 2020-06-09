@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react';
-import WhiteNav from './../layout/whiteNav';
 import { Link } from 'react-router-dom';
 import Card from '../component/CardItem';
-import Sidebar from '../layout/Sidebar';
 
 const Correction = () => {
   const data = [
@@ -16,7 +14,7 @@ const Correction = () => {
       createdAt: '12/2/2025',
     },
     {
-      id: 3,
+      id: 2,
       author: 'Manali Somani',
       heading: 'Blog Title 3',
       description:
@@ -25,7 +23,7 @@ const Correction = () => {
       createdAt: '17/12/2020',
     },
     {
-      id: 1,
+      id: 3,
       author: 'Kaushal Saraswat',
       heading: 'Blog Title 1',
       description:
@@ -34,7 +32,7 @@ const Correction = () => {
       createdAt: '12/2/2025',
     },
     {
-      id: 2,
+      id: 4,
       author: 'Archit Jain',
       heading: 'Blog Title 2',
       description:
@@ -43,7 +41,7 @@ const Correction = () => {
       createdAt: '15/2/2021',
     },
     {
-      id: 3,
+      id: 5,
       author: 'Manali Somani',
       heading: 'Blog Title 3',
       description:
@@ -55,21 +53,23 @@ const Correction = () => {
 
   return (
     <Fragment>
-      <WhiteNav />
-      <Sidebar />
       <section className="container form-box-3">
         <div className="btn-box">
           <Link to="/draft" className="btn-dash-3">
-            Draft
+            <i className="far fa-edit"></i>{' '}
+            <span className="hide-sm">Draft</span>
           </Link>
           <Link to="/pending" className="btn-dash-3">
-            PendingForApproval
+            <i className="fas fa-external-link-alt"></i>{' '}
+            <span className="hide-sm">PendingForApproval</span>
           </Link>
           <Link to="/correction" className="btn-dash-3-active">
-            PendingForCorrection
+            <i className="far fa-clock"></i>{' '}
+            <span className="hide-sm">PendingForCorrection</span>
           </Link>
           <Link to="/approved" className="btn-dash-3">
-            Approved
+            <i className="far fa-check-circle"></i>{' '}
+            <span className="hide-sm">Approved</span>
           </Link>
         </div>
 
