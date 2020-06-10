@@ -55,22 +55,22 @@ const Approved = () => {
     <Fragment>
       <section className="container form-box-3">
         <div className="btn-box">
-          <Link to="/draft" className="btn-dash-3 ">
+          <Link to="/draft" className="btn-dash-3 draft">
             <i className="far fa-edit tooltip">
               <span class="tooltiptext">Draft</span>
             </i>{' '}
           </Link>
-          <Link to="/pending" className="btn-dash-3">
+          <Link to="/pending" className="btn-dash-3 pending">
             <i class="far fa-calendar-minus tooltip">
-              <span class="tooltiptext">PandingForApproval</span>
+              <span class="tooltiptext">PendingForApproval</span>
             </i>{' '}
           </Link>
-          <Link to="/correction" className="btn-dash-3">
+          <Link to="/correction" className="btn-dash-3 correction">
             <i className="far fa-clock tooltip">
-              <span class="tooltiptext">PandingForCorrection</span>
+              <span class="tooltiptext">PendingForCorrection</span>
             </i>{' '}
           </Link>
-          <Link to="/approved" className="btn-dash-3-active">
+          <Link to="/approved" className="btn-dash-3 approved-active">
             <i className="far fa-check-circle tooltip">
               <span class="tooltiptext">Approved</span>
             </i>{' '}

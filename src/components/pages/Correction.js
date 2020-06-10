@@ -56,21 +56,24 @@ const Correction = () => {
       <section className="container form-box-3">
         <div className="btn-box">
           <Link to="/draft" className="btn-dash-3 ">
-            <i className="far fa-edit tooltip">
+            <i className="far fa-edit tooltip draft">
               <span class="tooltiptext">Draft</span>
             </i>{' '}
           </Link>
           <Link to="/pending" className="btn-dash-3">
-            <i class="far fa-calendar-minus tooltip">
-              <span class="tooltiptext">PandingForApproval</span>
+            <i class="far fa-calendar-minus tooltip pending">
+              <span class="tooltiptext">PendingForApproval</span>
             </i>{' '}
           </Link>
-          <Link to="/correction" className="btn-dash-3-active">
+          <Link
+            to="/correction"
+            className="btn-dash-3-active correction-active"
+          >
             <i className="far fa-clock tooltip">
-              <span class="tooltiptext">PandingForCorrection</span>
+              <span class="tooltiptext">PendingForCorrection</span>
             </i>{' '}
           </Link>
-          <Link to="/approved" className="btn-dash-3">
+          <Link to="/approved" className="btn-dash-3 approved">
             <i className="far fa-check-circle tooltip">
               <span class="tooltiptext">Approved</span>
             </i>{' '}

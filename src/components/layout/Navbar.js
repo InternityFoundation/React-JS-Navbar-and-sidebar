@@ -25,7 +25,7 @@ const Navbar = () => {
         </ul>
         <div>
           <button className="logout">
-            <i class="fas fa-sign-out-alt"></i> Logout
+            <i className="fas fa-sign-out-alt"></i> Logout
           </button>
         </div>
       </nav>
