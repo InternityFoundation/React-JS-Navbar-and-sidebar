@@ -1,4 +1,4 @@
-import React, { Fragment, Link } from 'react';
+import React, { Fragment } from 'react';
 
 const Users = () => {
   return (
@@ -14,95 +14,116 @@ const Users = () => {
             </div>
 
             <div className="modal-body">
-              <div class="posts">
-                <div class="post  my-1 p-1">
+              <div className="posts">
+                <div className="post  my-1 p-1">
                   <div>
                     <a href="profile.html">
                       <img
-                        class="round-img"
+                        className="round-img"
                         src="https://i.ibb.co/RCkT8Fx/ks.jpg"
                         alt=""
                       />
                     </a>
-                  </div>
-                  <div>
-                    <h4>Kaushal Saraswat</h4>
+                    <h4>Kaushal </h4>
                   </div>
                 </div>
-
-                <div class="post  my-1 p-1">
+                <div className="post  my-1 p-1">
                   <div>
                     <a href="profile.html">
                       <img
-                        class="round-img"
+                        className="round-img"
                         src="https://i.ibb.co/RCkT8Fx/ks.jpg"
                         alt=""
                       />
                     </a>
-                  </div>
-                  <div>
-                    <h4>Kaushal Saraswat</h4>
+                    <h4>Archit Jain</h4>
                   </div>
                 </div>
-
-                <div class="post  my-1 p-1">
+                <div className="post  my-1 p-1">
                   <div>
                     <a href="profile.html">
                       <img
-                        class="round-img"
+                        className="round-img"
                         src="https://i.ibb.co/RCkT8Fx/ks.jpg"
                         alt=""
                       />
                     </a>
-                  </div>
-                  <div>
-                    <h4>Kaushal Saraswat</h4>
+                    <h4>Kaushal </h4>
                   </div>
                 </div>
 
-                <div class="post  my-1 p-1">
+                <div className="post  my-1 p-1">
                   <div>
                     <a href="profile.html">
                       <img
-                        class="round-img"
+                        className="round-img"
                         src="https://i.ibb.co/RCkT8Fx/ks.jpg"
                         alt=""
                       />
                     </a>
+                    <h4>Kaushal </h4>
                   </div>
+                </div>
+                <div className="post  my-1 p-1">
                   <div>
-                    <h4>Kaushal Saraswat</h4>
+                    <a href="profile.html">
+                      <img
+                        className="round-img"
+                        src="https://i.ibb.co/RCkT8Fx/ks.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <h4>Archit Jain</h4>
                   </div>
                 </div>
-              </div>
+                <div className="post  my-1 p-1">
+                  <div>
+                    <a href="profile.html">
+                      <img
+                        className="round-img"
+                        src="https://i.ibb.co/RCkT8Fx/ks.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <h4>Kaushal </h4>
+                  </div>
+                </div>
 
-              <div class="post  my-1 p-1">
-                <div>
-                  <a href="profile.html">
-                    <img
-                      class="round-img"
-                      src="https://i.ibb.co/RCkT8Fx/ks.jpg"
-                      alt=""
-                    />
-                  </a>
+                <div className="post  my-1 p-1">
+                  <div>
+                    <a href="profile.html">
+                      <img
+                        className="round-img"
+                        src="https://i.ibb.co/RCkT8Fx/ks.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <h4>Kaushal </h4>
+                  </div>
                 </div>
-                <div>
-                  <h4>Kaushal Saraswat</h4>
+                <div className="post my-1 p-1">
+                  <div>
+                    <a href="profile.html">
+                      <img
+                        className="round-img"
+                        src="https://i.ibb.co/RCkT8Fx/ks.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <h4>Archit Jain</h4>
+                  </div>
                 </div>
-              </div>
-
-              <div class="post  my-1 p-1">
-                <div>
-                  <a href="profile.html">
-                    <img
-                      class="round-img"
-                      src="https://i.ibb.co/RCkT8Fx/ks.jpg"
-                      alt=""
-                    />
-                  </a>
-                </div>
-                <div>
-                  <h4>Kaushal Saraswat</h4>
+                <div className="post my-1 p-1">
+                  <div>
+                    <a href="profile.html">
+                      <img
+                        className="round-img"
+                        src="https://i.ibb.co/RCkT8Fx/ks.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <h4>Kaushal </h4>
+                  </div>
                 </div>
               </div>
             </div>
