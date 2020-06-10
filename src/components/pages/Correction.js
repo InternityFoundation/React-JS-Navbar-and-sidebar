@@ -55,27 +55,27 @@ const Correction = () => {
     <Fragment>
       <section className="container form-box-3">
         <div className="btn-box">
-          <Link to="/draft" className="btn-dash-3 ">
-            <i className="far fa-edit tooltip draft">
-              <span class="tooltiptext">Draft</span>
+          <Link to="/draft" className="btn-dash-3 draft ">
+            <i className="far fa-edit" id="tooltip">
+              <span className="tooltiptext">Draft</span>
             </i>{' '}
           </Link>
-          <Link to="/pending" className="btn-dash-3">
-            <i class="far fa-calendar-minus tooltip pending">
-              <span class="tooltiptext">PendingForApproval</span>
+          <Link to="/pending" className="btn-dash-3 pending">
+            <i className="far fa-calendar-minus" id="tooltip">
+              <span className="tooltiptext">PendingForApproval</span>
             </i>{' '}
           </Link>
           <Link
             to="/correction"
             className="btn-dash-3-active correction-active"
           >
-            <i className="far fa-clock tooltip">
-              <span class="tooltiptext">PendingForCorrection</span>
+            <i className="far fa-clock" id="tooltip">
+              <span className="tooltiptext">PendingForCorrection</span>
             </i>{' '}
           </Link>
           <Link to="/approved" className="btn-dash-3 approved">
-            <i className="far fa-check-circle tooltip">
-              <span class="tooltiptext">Approved</span>
+            <i className="far fa-check-circle" id="tooltip">
+              <span className="tooltiptext">Approved</span>
             </i>{' '}
           </Link>
         </div>

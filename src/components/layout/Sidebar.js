@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+import Users from '../pages/Users';
 
 const Sidebar = () => {
   return (
@@ -16,7 +17,12 @@ const Sidebar = () => {
             <h4>Kaushal</h4>
           </Link>
         </center>
-        <Link className="link" to="#">
+        <Link
+          className="link"
+          data-toggle="modal"
+          data-target="#myModal"
+          to="#"
+        >
           <i className="fas fa-user-circle"></i>
           <span>Users</span>
         </Link>
@@ -25,6 +31,7 @@ const Sidebar = () => {
           <span>Dashboard</span>
         </Link>
       </div>
+      <Users />
     </Fragment>
   );
 };

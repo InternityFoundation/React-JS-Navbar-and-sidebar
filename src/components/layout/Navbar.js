@@ -23,11 +23,10 @@ const Navbar = () => {
             <Link to="posts.html">Create</Link>
           </li>
         </ul>
-        <div>
-          <button className="logout">
-            <i className="fas fa-sign-out-alt"></i> Logout
-          </button>
-        </div>
+
+        <button className="logout">
+          <i className="fas fa-sign-out-alt"></i> Logout
+        </button>
       </nav>
     </Fragment>
   );

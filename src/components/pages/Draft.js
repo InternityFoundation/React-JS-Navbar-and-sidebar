@@ -56,23 +56,23 @@ const Draft = () => {
       <section className="container form-box-3">
         <div className="btn-box">
           <Link to="/draft" className="btn-dash-3 draft-active">
-            <i className="far fa-edit tooltip">
-              <span class="tooltiptext">Draft</span>
+            <i className="far fa-edit" id="tooltip">
+              <span className="tooltiptext">Draft</span>
             </i>{' '}
           </Link>
           <Link to="/pending" className="btn-dash-3 pending">
-            <i class="far fa-calendar-minus tooltip">
-              <span class="tooltiptext">PendingForApproval</span>
+            <i className="far fa-calendar-minus" id="tooltip">
+              <span className="tooltiptext">PendingForApproval</span>
             </i>{' '}
           </Link>
           <Link to="/correction" className="btn-dash-3 correction">
-            <i className="far fa-clock tooltip">
-              <span class="tooltiptext">PendingForCorrection</span>
+            <i className="far fa-clock" id="tooltip">
+              <span className="tooltiptext">PendingForCorrection</span>
             </i>{' '}
           </Link>
           <Link to="/approved" className="btn-dash-3 approved">
-            <i className="far fa-check-circle tooltip">
-              <span class="tooltiptext">Approved</span>
+            <i className="far fa-check-circle" id="tooltip">
+              <span className="tooltiptext">Approved</span>
             </i>{' '}
           </Link>
         </div>

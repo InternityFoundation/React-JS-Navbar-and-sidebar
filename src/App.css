@@ -103,11 +103,11 @@ header {
 }
 .sidebar {
   background: #f7f7f7;
-  margin-top: 70px;
+  margin-top: 60px;
   padding-top: 30px;
   position: fixed;
   left: 0;
-  width: 280px;
+  width: 270px;
   height: 100%;
   transition: 0.5s;
   transition-property: left;
@@ -184,7 +184,7 @@ label #sidebar_btn:hover {
 #check:checked ~ .sidebar .link {
   font-size: 25px;
   margin-left: 180px;
-  width: 100px;
+  width: 90px;
 }
 
 .content {
@@ -330,7 +330,7 @@ ul {
 .correction-active {
   color: red !important;
 }
-.panding-active {
+.pending-active {
   color: orange !important;
 }
 .draft-active {
@@ -339,7 +339,7 @@ ul {
 .correction:hover {
   color: red;
 }
-.panding:hover {
+.pending:hover {
   color: orange;
 }
 .draft:hover {
@@ -768,12 +768,12 @@ ul {
   }
 }
 
-.tooltip {
+#tooltip {
   position: relative;
   display: inline-block;
 }
 
-.tooltip .tooltiptext {
+#tooltip .tooltiptext {
   visibility: hidden;
   font-size: 1rem;
   background-color: #333;
@@ -789,7 +789,98 @@ ul {
   font-family: 'Roboto', sans-serif;
 }
 
-.tooltip:hover .tooltiptext {
+#tooltip:hover .tooltiptext {
   z-index: 444444;
   visibility: visible;
+}
+.modal {
+  color: #333;
+}
+
+.post {
+  display: -ms-grid;
+  display: grid;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  -ms-grid-columns: 2fr 4fr;
+  grid-template-columns: 2fr 4fr;
+  grid-gap: 2rem;
+  padding: 1rem;
+  margin-top: 0.6rem !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.post h4 {
+  font-size: 1.5rem;
+  justify-content: center;
+  color: #111a62;
+  margin-top: 0.6rem;
+}
+.post > div:first-child {
+  text-align: center;
+}
+
+.round-img {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50%;
+  border: 2px solid #111a62;
+}
+
+.modal-title {
+  font-size: 2rem;
+  padding: 0;
+  margin-bottom: -1rem;
+  color: #0a9bdd;
+}
+
+.modal {
+  margin-top: 12rem;
+  height: 31rem;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f7f7f7 !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navbar a {
+  color: #333;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+.navbar a:hover {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffb900),
+    to(#ff7730)
+  );
+  background-image: linear-gradient(to right, #ffb900, #ff7730);
+  -webkit-background-clip: text;
+  color: transparent;
 }
