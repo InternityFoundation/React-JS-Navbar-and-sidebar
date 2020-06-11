@@ -923,11 +923,11 @@ ul {
 
 .users {
   display: flex;
-  margin-left: -0.7rem;
+  /* margin-left: -0.7rem; */
   flex-direction: row;
   margin-bottom: 0.3rem;
   padding: 0.2rem 0rem;
-  width: 110%;
+  width: 100%;
   /* border: 1px solid #333; */
   background-color: #f7f7f7;
 }
@@ -951,4 +951,14 @@ ul {
 
 .user a {
   decoration: none;
+}
+
+.dropdown-menu {
+  width: 16.5rem;
+  margin-top: 19rem;
+}
+
+.customClassForDropDown {
+  height: 20rem;
+  overflow-y: auto;
 }
