@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react';
+import UserCard from '../component/UserCard';
 
 const landing = () => {
   return (
     <Fragment>
-      <div className="content"></div>
+      <section className="container form-box-3">
+        <UserCard />
+      </section>
     </Fragment>
   );
 };
